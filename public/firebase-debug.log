@@ -1,0 +1,43 @@
+[debug] [2018-08-17T04:24:19.503Z] ----------------------------------------------------------------------
+[debug] [2018-08-17T04:24:19.505Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-08-17T04:24:19.505Z] CLI Version:   3.19.3
+[debug] [2018-08-17T04:24:19.506Z] Platform:      darwin
+[debug] [2018-08-17T04:24:19.506Z] Node Version:  v10.6.0
+[debug] [2018-08-17T04:24:19.506Z] Time:          Fri Aug 17 2018 10:54:19 GMT+0630 (Myanmar Time)
+[debug] [2018-08-17T04:24:19.506Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-17T04:24:19.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-17T04:24:19.516Z] > authorizing via signed-in user
+[debug] [2018-08-17T04:24:19.518Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-17T04:24:19.518Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/c5y72MGLuibSBPKT15Tlw2IOhC6TwlyirCU4Dpr6iVE',
+  client_id:
+   '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope:
+   'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Aug 17 2018 10:54:19 GMT+0630 (Myanmar Time)
+[debug] [2018-08-17T04:24:19.977Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-17T04:24:19.999Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/shweweb  
+  
+ Fri Aug 17 2018 10:54:19 GMT+0630 (Myanmar Time)
+[debug] [2018-08-17T04:24:21.599Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-17T04:24:21.600Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/shweweb/tokens  
+  
+ Fri Aug 17 2018 10:54:21 GMT+0630 (Myanmar Time)
+[debug] [2018-08-17T04:24:22.745Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-17T04:24:22.746Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/shweweb  
+  
+ Fri Aug 17 2018 10:54:22 GMT+0630 (Myanmar Time)
+[debug] [2018-08-17T04:24:24.331Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/ravichhabra/temp/fb-data-bindings'...
+[info] 
+[debug] [2018-08-17T04:24:24.341Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/731501073548/clients/_:getWebAppConfig  
+  
+ Fri Aug 17 2018 10:54:24 GMT+0630 (Myanmar Time)
+[debug] [2018-08-17T04:24:25.285Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
